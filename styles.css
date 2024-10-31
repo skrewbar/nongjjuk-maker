@@ -7,8 +7,14 @@
 
 body {
     text-align: center;
+    font-family: 'Pretendard-Regular';
 }
 
-p {
-    font-family: 'Pretendard-Regular';
+textarea#nong {
+    margin-top: 3rem;
+    width: 80%;
+}
+
+button {
+    font-size: 64px;
 }
