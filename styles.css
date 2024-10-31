@@ -10,9 +10,8 @@ body {
     font-family: 'Pretendard-Regular';
 }
 
-textarea#nong {
+div.container {
     margin-top: 3rem;
-    width: 80%;
 }
 
 button {
