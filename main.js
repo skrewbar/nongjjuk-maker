@@ -10,7 +10,10 @@ function shuffle(array) {
     while (currentIndex != 0) {
         var randomIndex = Math.floor(Math.random() * currentIndex);
         currentIndex--;
-        _a = [array[randomIndex], array[currentIndex]], array[currentIndex] = _a[0], array[randomIndex] = _a[1];
+        _a = [
+            array[randomIndex],
+            array[currentIndex],
+        ], array[currentIndex] = _a[0], array[randomIndex] = _a[1];
     }
 }
 function generateNongjjuk() {
