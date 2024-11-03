@@ -19,5 +19,8 @@ function shuffle(array) {
 function refreshTextarea() {
     shuffle(words);
     textarea.value = front + words.join("") + back;
+    textarea.select();
+    textarea.setSelectionRange(0, 99999);
+    navigator.clipboard.writeText(textarea.value);
 }
 refreshTextarea();
