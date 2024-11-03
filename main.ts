@@ -31,4 +31,4 @@ function refreshTextarea() {
   navigator.clipboard.writeText(textarea.value);
 }
 
-refreshTextarea();
+textarea.value = front + words.join("") + back;

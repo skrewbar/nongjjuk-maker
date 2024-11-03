@@ -23,4 +23,4 @@ function refreshTextarea() {
     textarea.setSelectionRange(0, 99999);
     navigator.clipboard.writeText(textarea.value);
 }
-refreshTextarea();
+textarea.value = front + words.join("") + back;
